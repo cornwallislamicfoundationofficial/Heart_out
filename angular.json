@@ -38,6 +38,20 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "options": {
+  "outputPath": "dist/heart-out-app",
+  "browser": "src/main.ts",
+  "index": "src/index.html",
+  "tsConfig": "tsconfig.app.json",
+  "assets": ["src/favicon.ico", "src/assets"],
+  "styles": ["src/styles.css"],
+  "externalDependencies": [
+    "firebase/app",
+    "firebase/auth",
+    "firebase/firestore"
+  ]
+}
+
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
