@@ -16,7 +16,7 @@ const FIREBASE_CONFIG = {
   measurementId: "G-B6HNZJFZQ4"
 };
 
-const GEMINI_API_KEY = 'YOUR_GEMINI_API_KEY'; // 🔑 Fill this in
+const GEMINI_API_KEY ='AIzaSyAdVS37pyY2xB1_l-t5TA2-3oApXD11JFA'
 
 @Component({
   selector: 'app-root',
